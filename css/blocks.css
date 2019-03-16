@@ -29,3 +29,51 @@ section {
 .i4 {
     width:298px;
 }
+
+.nav {
+    background-color: #4e2583;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 17px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
