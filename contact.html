@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="./css/blocks.css">
     <script type="text/javascript" src="./js/index.js"></script>
     <link rel="shortcut icon" type="copyright.png" href="./images/copyright.png"/>
+
+    <style type="text/css">
+        a {
+            display: block;
+            margin: 10px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>English Language and Literature: Be Informed!</h1>
@@ -16,6 +27,75 @@
         <li><a href="courses.html">Courses</a></li>
         <li><a href="references.html">References</a></li>
     </ul>
+
+    <form>
+        <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" /><br/>
+        <label for="email">Email Address</label>
+            <input type="text" name="email" id="email" /><br/>
+        <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" id="phonenumber" /><br/>
+
+        <h3>Country of Residence</h3>
+        <input type="radio" name="country" id="canada" onclick="checkCountry()" />
+            <label for="canada">Canada</label>
+        <input type="radio" name="country" id="us" onclick="checkCountry()"/>
+            <label for="us">US</label>
+        <input type="radio" name="country" id="other" onclick="checkCountry()" />
+            <label for="other">Other</label>
+
+
+        <div id="pickpostal" hidden>
+            <label for="postalcode">Postal Code</label>
+                <input type="text" name="postalcode" id="postalcode" /><br/>
+        </div id="pickzip" hidden>
+
+        <div hidden>
+            <label for="zipcode">Zip Code</label>
+                <input type="text" name="zipcode" id="zipcode" /><br/>
+        </div>
+
+
+        <h3>Current Education</h3>
+        <input type="radio" name="education" id="highschool" />
+            <label for="highschool">High School</label>
+        <input type="radio" name="education" id="university" />
+            <label for="university">University</label>
+        <input type="radio" name="education" id="college"/>
+            <label for="college">College</label>
+        <input type="radio" name="education" id="other" />
+            <label for="other">Other</label>
+        <input type="radio" name="education" id="none" />
+            <label for="none">None</label>
+
+        <h3>Personal Interests</h3>
+        <input type="checkbox" name="interests" value="writing" />
+            <label for="writing">Writing</label>
+        <input type="checkbox" name="interests" value="reading" />
+            <label for="reading">Reading</label>
+        <input type="checkbox" name="interets" value="editing" />
+            <label for="editing">Editing</label>
+        <input type="checkbox" name="interests" value="analyticalskill" />
+            <label for="analyticalskill">Analytical Skill</label>
+        <input type="checkbox" name="interests" value="communication" />
+            <label for="communication">Communication</label>
+        <input type="checkbox" name="interests" value="persuasion" />
+            <label for="persuasion">Persuasion</label>
+
+
+       <h3>We want to hear from our future prospects!</h3>
+        <input type="submit" name="submit" value="Submit Now!" />
+
+        <script>
+            if
+            }
+        </script>
+
+
+
+
+
+    </form>
 
 </body>
 </html>
