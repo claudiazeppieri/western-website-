@@ -1,9 +1,9 @@
 function pickpostal() {
-    var = document.getElementById(pickpostal);
-    if (x.style.display === Canada) {
-        x.style.display = "show";
+    var postal= document.getElementById(pickpostal);
+    if(canada.isChecked) {
+        postal.visibility= "visible"
     } else {
-        x.style.display = "block";
+        zip.visibility= "blocked"
     }
 
 }
